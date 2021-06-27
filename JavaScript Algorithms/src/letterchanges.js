@@ -16,3 +16,5 @@ function Letterchanges(str){
 }
 
 console.log(Letterchanges('zwealth'));
+
+module.exports = Letterchanges;
