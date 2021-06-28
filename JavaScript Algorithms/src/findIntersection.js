@@ -8,7 +8,6 @@ example
 Input: ["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]
 Output: 1,4,13
 */
-
 function FindIntersection(strArr) { 
     // code goes here  
     const left = strArr[0].split(', '); 
@@ -27,5 +26,7 @@ function FindIntersection(strArr) {
     return strArr; 
 }
      
-  // keep this function call here 
+  // keep this function call here // test case
 console.log(FindIntersection(["1, 3, 9, 10, 17, 18", "1, 4, 9, 10"]));
+
+module.exports = FindIntersection;
