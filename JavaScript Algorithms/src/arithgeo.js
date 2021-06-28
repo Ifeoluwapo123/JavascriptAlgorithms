@@ -13,6 +13,6 @@ function arithGeo(arr) {
   if (arithRes === 0) return 'arithmetic'
   if (geoRes === 0) return 'geometric'
   if (arithRes !== 0 && geoRes !== 0) return false
-}
+} 
 
 module.exports = arithGeo
