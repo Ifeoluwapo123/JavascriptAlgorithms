@@ -3,6 +3,7 @@ function fibonacci(num) {
   return fibonacci(num - 1) + fibonacci(num - 2)
 }
 
-console.log(fibonacci(6))
+console.log(fibonacci(2))
 
 //sequence [0, 1, 1, 2, 3, 5, 13, 21, ...]
+module.exports = fibonacci;
