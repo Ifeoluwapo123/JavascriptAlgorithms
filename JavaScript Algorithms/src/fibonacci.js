@@ -10,6 +10,4 @@ function fibonacci(num) {
 
 console.log(fibonacci(2))
 
-
-
 module.exports = fibonacci
