@@ -1,3 +1,8 @@
+
+/**
+ * @param {character[][]} board
+ * @return {boolean}
+*/
 var isValidSudoku = function (board) {
   if (!checkRow(board)) return false;
   if (!validate(sliceOne(board, 0, 3))) return false;
